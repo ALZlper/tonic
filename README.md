@@ -42,7 +42,7 @@ All tonic templates are compiled back to native PHP code. It's highly recommende
 ```php
 $tpl = new Tonic();
 $tpl->cache_dir = "./cache/"; // Be sure this directory exists and has writing permissions
-$tpl->enable_content_cache = true; // Importante to set this to true!
+$tpl->enable_content_cache = true; // Important to set this to true!
 ```
 ## Modifiers
 Modifiers are functions that modify the output variable in various ways. All modifiers must be preceded by a variable and can be chained with other modifiers. Example:
