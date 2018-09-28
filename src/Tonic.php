@@ -645,7 +645,7 @@ class Tonic{
                         }
                     }
                     $_var_name='$'.$vn;
-                    $this->applyModifiers($_var_name,$mod);
+                    self::applyModifiers($_var_name,$mod);
                 }else{
                     $_var_name='$'.$_var_name[0];
                 }
